@@ -1,0 +1,24 @@
+### Optional Notes for Tongue_Bridge Project
+
+1. **Tesseract OCR Setup**:
+   - Download Tesseract OCR: https://github.com/tesseract-ocr/tesseract
+   - Add the Tesseract installation path to your system's PATH variable.
+   - Example: `C:\Program Files\Tesseract-OCR\tesseract.exe`.
+
+2. **PyAudio Installation** (Optional):
+   - PyAudio is required for advanced speech input/output handling.
+   - For Windows, use a precompiled package: https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio.
+   - For Linux/macOS, use:
+     ```bash
+     sudo apt-get install portaudio19-dev
+     pip install pyaudio
+     ```
+
+3. **GUI Enhancement**:
+   - To add a graphical interface, use:
+     - `Tkinter` (built-in for Python).
+     - `PyQt` (install with `pip install pyqt5`).
+   - Example: A GUI for selecting images or languages.
+
+4. **Languages Supported**:
+   - The project supports Go
